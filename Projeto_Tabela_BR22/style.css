@@ -1,0 +1,134 @@
+html{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.5;
+  background-color: #fcfcfc;x
+}
+
+h1 {
+  color: rgb(2, 83, 2);
+  padding: 2px;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 35px;
+}
+
+h2 {
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  color: black;
+  text-align: left;
+}
+.tabela {
+  vertical-align: middle;
+  border-width: thin;
+  border: 1px;
+  width: 800px;
+  display: inline-block;
+  font-size: 16px;
+}
+.linha1 {
+  background-color: #fcfcfc;
+  color: rgba(10, 10, 10, 0.753);
+  line-height: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 1px;
+  border: align-items;
+  font-size: 15px;
+}
+.times {
+  text-align: left;
+  padding: 1px;
+  font-size: 15px;
+}
+.tabela tbody tr:nth-child(even) {
+  background-color: rgb(241, 239, 239);
+}
+
+table,
+th,
+tr,
+td {
+  width: 500px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 2px;
+  border-width: thin;
+  border: 2px;
+}
+thead {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 2px;
+}
+
+.zLibertadores {
+  color: rgb(4, 4, 206);
+}
+
+.zLibertadores2 {
+  color: rgb(5, 223, 223);
+}
+
+.zSula {
+  color: rgb(10, 161, 10);
+}
+.zRebaixamento {
+  color: red;
+}
+.zNada {
+  color: rgb(156, 155, 155);
+}
+
+.borda {
+  border-top: 2px solid rgb(54, 54, 54);
+}
+
+.faixaclassificacao {
+  font-size: 13px;
+  padding: 4px;
+  margin-left: 0;
+  text-align: left;
+  font-family: Calibri, Arial;
+  vertical-align: baseline;
+  position: relative;
+}
+.legenda {
+  padding: 6px;
+  margin: 0;
+  text-align: left;
+  font-size: 11px;
+  font-family: Calibri, Arial;
+  font-weight: bold;
+  position: relative;
+}
+.classificacao_ultimos_jogos {
+  border-radius: 80%;
+  display: inline-block;
+  text-align: center;
+  height: 7px;
+  margin-left: 3px;
+  overflow: hidden;
+  width: 7px;
+  padding: 1px;
+  border-width: thin;
+}
+.classificacao_ultimos_jogos--v {
+  background-color: #86e64e;
+}
+.classificacao_ultimos_jogos--d {
+  background-color: rgb(219, 57, 57);
+}
+.classificacao_ultimos_jogos--e {
+  background-color: #ccc;
+}
